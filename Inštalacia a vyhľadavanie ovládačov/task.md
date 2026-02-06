@@ -1,14 +1,16 @@
 Ú1:
-| Kategoria ---------------| nazov zariadenia----|
+
+| Kategoria | nazov zariadenia |
+| ---|---|
 |grafike adaptery----------|AMD Radeon HD 7560D--|
-|zvukove vstupy a vystupy--|headphones,microphone------------------|
-|sietove adaptery----------|Realtek PCIe GbE Family Controller-----|
+|zvukove vstupy a vystupy--|headphones,microphone-|
+|sietove adaptery----------|Realtek PCIe GbE Family Controller|
 |                          |  VirtualBox Host-Only Ethernet Adapter|
-|                          |  WAN Miniport (IKEv2)-----------------|
-|                          |  WAN Miniport (IP)--------------------|
-|                          | WAN Miniport (IPv6)-------------------|
-|                          |  WAN Miniport (L2TP)------------------|
-|                          | WAN Miniport (Network Monitor)--------|
+|                          |  WAN Miniport (IKEv2)|
+|                          |  WAN Miniport (IP)|
+|                          | WAN Miniport (IPv6)|
+|                          |  WAN Miniport (L2TP)|
+|                          | WAN Miniport (Network Monitor)-|
 |                          |  WAN Miniport (PPPoE)-----------------|
 |                          |  WAN Miniport (PPTP)------------------|
 |                          |  WAN Miniport (SSTP)------------------|           
@@ -21,7 +23,8 @@
 --------nie a viac som nasiel asi v devmgmt.msc-----------
 
 Ú2:
-|---udaj--------------|--hodnota-------------------|
+|---udaj|--hodnota|
+| ---|---|
 |poskytovatel ovladaca|Advanced Micro Devices, Inc.|
 |datum ovladaca-------|4. 11. 2015-----------------|
 |verzia ovladaca------|15.201.1151.1008------------|
@@ -34,7 +37,8 @@
 
 
 Ú3:
-|---udaj------------------|---hodnota-------------|
+|---udaj|hodnota|
+| ---|---|
 |stranka vyrobcu          |AMD support.com        |
 |najnovsia verzia ovladaca|nenasiel som ho tam ): |
 |velkost suboru           |nenasiel som ho tam ): |
