@@ -17,11 +17,20 @@ U1(2/3):
 
 U(3/3):
 
-|     prikaz      |   vysledok      |
-|-----------------|-----------------|
-|   ping 127.0.0.1|    odpoved      |
-|   ping 8.8.8.8  |    odpoved      | 
-|  ping google.com|    odpoved      |
+|     prikaz      |                          vysledok                      |
+|-----------------|--------------------------------------------------------|
+|   ping 127.0.0.1|    Ping statistics for 127.0.0.1:                      |
+|                 | Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),   |
+|                 | Approximate round trip times in milli-seconds:         |
+|                 | Minimum = 0ms, Maximum = 0ms, Average = 0ms            |
+|   ping 8.8.8.8  |    Ping statistics for 8.8.8.8:                        |
+|                 |   Packets: Sent = 4, Received = 4, Lost = 0 (0% loss), |
+|                 |   Approximate round trip times in milli-seconds:       |
+|                 |Minimum = 9ms, Maximum = 11ms, Average = 10ms           | 
+|  ping google.com|   Ping statistics for 172.217.169.238:                 |
+|                 |   Packets: Sent = 4, Received = 4, Lost = 0 (0% loss), |
+|                 |Approximate round trip times in milli-seconds:          |
+|                 |Minimum = 20ms, Maximum = 21ms, Average = 20ms          |
 
 
 U2(1/2):
