@@ -80,14 +80,14 @@ Otvoril sa rovnaký program ako v 4.1?
 
 **Aspoň 2 rozdiely medzi TTY a grafickým terminálom:**
 
-1.
-2.
+1. tak samozrejme TTY je len "konzola" asi, proste je to len vo forme prikazoveho riadku
+2. graficky terminal ma GUI cize ikony atd
 
 **Cez ktoré F-tlačidlo si sa vrátil späť do GUI?**
 
 - [ ] F1
 - [ ] F2
-- [ ] F7
+- [A] F7
 - [ ] iné:
 
 ---
@@ -99,37 +99,37 @@ Otvoril sa rovnaký program ako v 4.1?
 Skopíruj výstup z terminálu sem:
 
 ```
-$ whoami
+$ whoami - mint
 
 
-$ hostname
+$ hostname - mint
 
 
-$ pwd
+$ pwd - /home/mint
 
 
-$ echo $USER
+$ echo $USER - mint
 
 ```
 
 ### 5.2 Aký znak je na konci tvojho promptu?
 
-- [ ] `$`
+- [A] `$`
 - [ ] `#`
 
-### 5.3 Čo tento znak hovorí o tvojich právach v systéme?
+### 5.3 Čo tento znak hovorí o tvojich právach v systéme? - ze som bezny pouzivatel
 
 ### 5.4 Čítanie promptu
 
 Pozri sa na svoj prompt (príklad: `andrej@mint:~$`). Vypíš, čo všetko z neho vieš prečítať **bez napísania jediného príkazu**:
 
--
--
--
--
+- hostname 
+- meno pouzivatela
+- adresar
+- typ uctu
 
 ---
 
 ## Záver
 
-Čo bolo pre teba dnes nové alebo zaujímavé?
+Čo bolo pre teba dnes nové alebo zaujímavé? - Secko
