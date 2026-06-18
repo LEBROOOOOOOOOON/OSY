@@ -1,0 +1,28 @@
+#!/bin/bash
+# osy_MENO_PRIEZVISKO_zaloha.sh — jednoduchy zalohovaci skript
+# Zabali zvoleny priecinok do .tar.gz archivu s datumom v nazve.
+
+# Nastavenie osobneho priecinka podla priezviska
+ZDROJ="$HOME/zaloha_sihelnik"
+CIEL="/tmp/zalohy"
+DATUM=$(date +%Y-%m-%d)
+ARCHIV="$CIEL/zaloha-$DATUM.tar.gz"
+
+# Kontrola existencie zdrojoveho adresara
+if [ ! -d "$ZDROJ" ]; then
+    echo "CHYBA: zdrojovy priecinok '$ZDROJ' neexistuje."
+    echo "Vytvor ho (mkdir $ZDROJ) alebo uprav premennu ZDROJ v skripte."
+    exit 1
+fi
+
+# Vytvorenie cieloveho priecinka, ak neexistuje
+mkdir -p "$CIEL"
+
+echo "Zalohujem '$ZDROJ' do '$ARCHIV' ..."
+
+# Samotne balenie adresara do tar.gz
+tar -czf "$ARCHIV" "$ZDROJ"
+
+echo "Hotovo. Archiv: $ARCHIV"
+echo "Velkost:"
+ls -lh "$ARCHIV"
